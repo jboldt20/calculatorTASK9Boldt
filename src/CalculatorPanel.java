@@ -31,11 +31,12 @@ public class CalculatorPanel extends JPanel {
         JButton b2 = new JButton ("2");
         JButton b3 = new JButton ("3");
         JButton bm = new JButton ("-");
-        JButton by = new JButton ("=");
+        JButton bb = new JButton (" ");
         JButton b0 = new JButton ("0");
         JButton bd = new JButton (".");
         JButton bc = new JButton ("C");
         JButton bp = new JButton ("+");
+        JButton by = new JButton ("=");
 
         buttonPanel.add(ba);
         buttonPanel.add(bx);
@@ -56,11 +57,12 @@ public class CalculatorPanel extends JPanel {
         buttonPanel.add(b2);
         buttonPanel.add(b3);
         buttonPanel.add(bm);
-        buttonPanel.add(by);
+        buttonPanel.add(bb);
         buttonPanel.add(b0);
         buttonPanel.add(bd);
         buttonPanel.add(bc);
         buttonPanel.add(bp);
+        buttonPanel.add(by);
 
         add(bar, BorderLayout.NORTH);
         add(buttonPanel, BorderLayout.SOUTH);
